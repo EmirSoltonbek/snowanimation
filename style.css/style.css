@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    background-color: darkblue;
+    display: flex;
+    overflow: hidden;
+}
+.snow{
+    position: absolute;
+    color: white;
+    animation-name: snow;
+    animation-iteration-count:infinite;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    margin: -55px;
+}
+
+@keyframes snow {
+    0%{
+        transform:rotate(0deg);
+        padding-left: 5px;
+    }
+    10%{  
+        padding-left: 15px;
+    }
+    20%{
+        margin-top: 20%;
+        padding-left: 5px;
+    }
+    30%{  
+        padding-left: 15px;
+    }
+    40%{
+        margin-top: 40%;
+        padding-left: 5px;
+    }
+    50%{  
+        padding-left: 15px;
+    }
+    60%{
+        padding-left: 5px;
+        margin-top: 60%;
+    }
+    70%{  
+        padding-left: 15px;
+    }
+    80%{
+        padding-left: 5px;
+        margin-top: 80%;
+    }
+    90%{  
+        padding-left: 15px;
+    }
+    100%{
+        transform: rotate(360deg);
+        padding-left: 5px;
+        margin-top: 100%;
+    }
+}
+
+
+#snow1{
+font-size: 30px;
+left:20%;
+animation-delay: 3s;
+}
+#snow2{
+font-size: 60px;
+left: 40%;
+animation-delay: 5s;
+}
+#snow3{
+font-size: 40px;
+animation-delay: 7s;
+left: 70%;
+}
+#snow4{
+font-size: 84px;
+animation-delay: 3s;
+left: 60%;
+}
+#snow5{
+font-size: 30px;
+animation-delay: 2s;
+left: 30%;
+}
+#snow6{
+font-size: 60px;
+animation-delay: 1s;
+left: 90%;
+}
+#snow7{
+font-size: 35px;
+animation-delay: 6s;
+left: 80%;
+}
+#snow8{
+font-size: 45px;
+left: 15%;
+animation-delay: 8s;
+}
+#snow9{
+font-size:43px;
+left: 50%;
+animation-delay: 10s;
+}
+#snow10{
+    font-size:76px;
+    left: 10%;
+animation-delay: 6.5s;
+}
+#snow11{
+    font-size:56px;
+    left: 25%;
+animation-delay: 9.5s;
+}
+#snow12{
+    font-size:23px;
+    left: 75%;
+animation-delay: 10s;
+}
+#snow13{
+    font-size:62px;
+    left: 55%;
+animation-delay: 9s;
+}
+#snow14{
+    font-size:25px;
+    left: 95%;
+animation-delay: 2.5s;
+}
